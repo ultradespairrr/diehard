@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DIE HARD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>DIE HARD</h1>
+    <nav>
+      <a href="#collection">collection</a>
+      <a href="#about">about</a>
+      <a href="#contact">contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-logo" id="hero-logo">DIE HARD</div>
+    <div class="scroll-down">scroll to explore</div>
+  </section>
+
+  <section id="collection">
+    <h2>collection</h2>
+    <div class="collection">
+      <div class="item" data-id="1">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/0El6ZJC.jpeg" alt="DEMON T" />
+          <img class="hover-img" src="https://i.imgur.com/lwiaklb.jpeg" alt="DEMON T Hover" />
+        </div>
+        <div class="product-info">
+          <h3>DEMON T</h3>
+          <p>65.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="2">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/lrYdVbx.jpeg" alt="OPIDENIM BLACK" />
+          <img class="hover-img" src="https://i.imgur.com/x8CATHH.jpeg" alt="OPIDENIM BLACK Hover" />
+        </div>
+        <div class="product-info">
+          <h3>OPIDENIM BLACK</h3>
+          <p>149.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="3">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/u1uMvvb.jpeg" alt="OPIDENIM BLUE" />
+          <img class="hover-img" src="https://i.imgur.com/72BW72G.jpeg" alt="OPIDENIM BLUE Hover" />
+        </div>
+        <div class="product-info">
+          <h3>OPIDENIM BLUE</h3>
+          <p>149.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="4">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/BBRyhrw.jpeg" alt="PUNK DENIM" />
+          <img class="hover-img" src="https://i.imgur.com/9lqJiOJ.jpeg" alt="PUNK DENIM Hover" />
+        </div>
+        <div class="product-info">
+          <h3>PUNK DENIM</h3>
+          <p>130.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="5">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/bMUEPl1.jpeg" alt="SPIDER Jeans" />
+          <img class="hover-img" src="https://i.imgur.com/KempyPk.jpeg" alt="SPIDER Jeans Hover" />
+        </div>
+        <div class="product-info">
+          <h3>SPIDER Jeans</h3>
+          <p>120.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="6">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/BlmusNF.jpeg" alt="كابوس ZIP UP HOODIE" />
+          <img class="hover-img" src="https://i.imgur.com/BrkYEOH.jpeg" alt="كابوس ZIP UP HOODIE Hover" />
+        </div>
+        <div class="product-info">
+          <h3>كابوس ZIP UP HOODIE</h3>
+          <p>110.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="7">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/Zp3rNV0.jpeg" alt="GREY JORTS" />
+          <img class="hover-img" src="https://i.imgur.com/MYhCiqB.jpeg" alt="GREY JORTS Hover" />
+        </div>
+        <div class="product-info">
+          <h3>GREY JORTS</h3>
+          <p>100.000dt</p>
+        </div>
+      </div>
+      <div class="item" data-id="8">
+        <div class="img-wrapper">
+          <img src="https://i.imgur.com/RiYphI5.jpeg" alt="BLUE JORTS" />
+          <img class="hover-img" src="https://i.imgur.com/mH7z27t.jpeg" alt="BLUE JORTS Hover" />
+        </div>
+        <div class="product-info">
+          <h3>BLUE JORTS</h3>
+          <p>100.000dt</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>about</h2>
+    <p>
+      Die Hard is a clothing brand for those who push the limits. Inspired by raw
+      expression, unfiltered edge, and street culture reimagined through high
+      fashion minimalism. Our work is bold, dark, and unapologetic.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>contact</h2>
+    <form onsubmit="event.preventDefault(); alert('Message sent.'); this.reset();">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message" required></textarea>
+      <button type="submit">send</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 DIE HARD. all rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
